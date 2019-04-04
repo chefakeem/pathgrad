@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PathGrad
 {
-    public partial class Form1 : Form
+    public partial class Welcome : Form
     {
-        public Form1()
+        public Welcome()
         {
             InitializeComponent();
+        }
+
+        private void studentID_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
