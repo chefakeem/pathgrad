@@ -57,6 +57,7 @@
             this.login.TabIndex = 0;
             this.login.Text = "Login";
             this.login.UseVisualStyleBackColor = true;
+            this.login.Click += new System.EventHandler(this.login_Click);
             // 
             // createAccount
             // 
@@ -66,6 +67,7 @@
             this.createAccount.TabIndex = 1;
             this.createAccount.Text = "Create Account";
             this.createAccount.UseVisualStyleBackColor = true;
+            this.createAccount.Click += new System.EventHandler(this.createAccount_Click);
             // 
             // password
             // 
@@ -196,6 +198,7 @@
             this.createNew.TabIndex = 15;
             this.createNew.TabStop = false;
             this.createNew.Text = "Create New Account";
+            this.createNew.Enter += new System.EventHandler(this.createNew_Enter);
             // 
             // Welcome
             // 

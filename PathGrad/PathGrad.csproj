@@ -45,6 +45,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="courseTrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="courseTrack.Designer.cs">
+      <DependentUpon>courseTrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\course.cs" />
+    <Compile Include="models\student.cs" />
+    <Compile Include="models\track.cs" />
+    <Compile Include="student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student.Designer.cs">
+      <DependentUpon>student.cs</DependentUpon>
+    </Compile>
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +68,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="courseTrack.resx">
+      <DependentUpon>courseTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student.resx">
+      <DependentUpon>student.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
     </EmbeddedResource>
